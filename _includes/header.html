@@ -1,4 +1,4 @@
-<header class="site-header">
+<!--<header class="site-header">
 
   <div class="wrapper">
 
@@ -24,4 +24,16 @@
 
   </div>
 
+</header>
+-->
+<header class="ui stackable inverted menu">
+    <a href="{{ site.baseurl }}/" class="item"><i class="home icon"></i></a>
+    <a href="{{ site.baseurl }}/" class="item"><h3>{{ site.title }}</h3></a>
+      <div class="right menu">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <a class="item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
 </header>
