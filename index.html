@@ -10,6 +10,9 @@ layout: default
         <h2>
           <span class="ui red ribbon label">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% for categorie in post.categories %}
+            <a class="ui mini grey tag label">{{ categorie }}</a>
+          {% endfor %}
         </h2>
         <div>
           {{ post.excerpt }}
