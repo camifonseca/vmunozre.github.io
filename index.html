@@ -7,7 +7,6 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-
         <h2>
           <span class="ui red ribbon label">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -19,6 +18,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribete!  <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="rss icon"></i>RSS</a></p>
+
 
 </div>

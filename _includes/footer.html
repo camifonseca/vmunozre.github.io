@@ -73,6 +73,9 @@
           <h4 class="ui inverted header">Encuentrame en:</h4>
           <div class="ui inverted link list">
             <ul class="social-media-list">
+              <li>
+                <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="rss icon"></i>RSS</a>
+              </li>
               {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}">
