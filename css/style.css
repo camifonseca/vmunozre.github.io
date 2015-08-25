@@ -1,0 +1,8 @@
+.rightsep{
+  margin-right: 20px;
+}
+.searcher{
+  position: absolute;
+  float: right;
+  max-width: 300px;
+}
