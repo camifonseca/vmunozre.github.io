@@ -9,7 +9,7 @@ y sencillo que resulta incorporar un Framework (*Bootstrap*) a nuestro nuevo blo
 
 Muy bien, comencemos con algo de teoría.
 
-###¿Qué es Bootstrap?
+##¿Qué es Bootstrap?
 Segun mi profesor de Desarrollo de Aplicaciones Web:
 
 >"Bootstrap es la solución perfecta para, sin tener ni idea de diseño, dejarlo todo bonito."
@@ -20,7 +20,7 @@ Actualmente su desarrollo continua en un repositorio de Github.
 
 [Pagina Oficial de Bootstrap][bs-page]
 
-###Lo primero es situarnos
+##Lo primero es situarnos
 Tendremos que acceder al archivo *head.html* situado en la carpeta **_includes** de nuestro blog. Dentro de la etiqueta *<head>* colocaremos el CDN de Bootstrap. El CDN, simplificando, es el enlace con las librerías. Este lo podemos encontrar la pagina oficial [enlace][bs-gs] o a continuación:
 
 {% highlight HTML %}
@@ -36,7 +36,7 @@ Tendremos que acceder al archivo *head.html* situado en la carpeta **_includes**
 
 Con esto ya podremos utilizar cualquier componente de Bootstrap tanto en la estructura de nuestra página como dentro de los propios Posts.
 
-###En "local"
+##En "local"
 Fácil ¿verdad? Pero y si nosotros tenemos descargadas estas librerías, ¿cómo las incluimos?
 
 Dentro del mismo archivo *head.html* debemos añadirlo de la siguiente manera, donde **nombreCarpeta** es la carpeta donde tenéis situadas las librerías y **nombreArchivo** es el nombre de la librería.
