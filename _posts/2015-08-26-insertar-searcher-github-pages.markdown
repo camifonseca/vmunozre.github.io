@@ -9,7 +9,7 @@ Hoy aprenderemos algo muy práctico, como añadirle un buscador a nuestro blog d
 
 ### Lo primero es lo primero
 
-El plugin que usaremos se llama Simple-Jekyll-Search y podéis encontrar la fuente oficial en el siguiente [enlace][Simple-Jekyll-Search]. Pero en este tutorial se explicará paso a paso como instalarlo.
+El plugin que usaremos se llama Simple-Jekyll-Search y podéis encontrar la fuente oficial en el siguiente [enlace][SJS]. Pero en este tutorial se explicará paso a paso como instalarlo.
 
 ##Comenzamos.
 En la raíz de nuestro blog crearemos un archivo con el nombre de **search.json**. En el se incluirán asignaciones de búsqueda mediante el siguiente código:
@@ -33,7 +33,7 @@ layout: none
 
 Si nuestros post tienen algún argumento añadido, y queremos que nuestro buscador filtre por ese argumento, deberíamos introducirlo en este documento de la misma manera que, por ejemplo, están incluidas las caregorias *""category" : "{{ post.category }}","*.
 
-Ahora crearemos otro archivo, en la carpeta que queramos, con el nombre **jekyll-search.js**, pero no os asustéis, no vamos a pelearnos con JavaScript hoy. En el interior de este archivo pegaremos el siguiente código [enlace][jekyll-search] (haciendo clic derecho, guardar enlace como, podemos guardarlo directamente. Si no, copiar su contenido en vuestro *jekyll-search.js*).
+Ahora crearemos otro archivo, en la carpeta que queramos, con el nombre **jekyll-search.js**, pero no os asustéis, no vamos a pelearnos con JavaScript hoy. En el interior de este archivo pegaremos el siguiente código [aqui][jese] (haciendo clic derecho, guardar enlace como, podemos guardarlo directamente. Si no, copiar su contenido en vuestro *jekyll-search.js*).
 Como último paso en este apartado debemos recordar incluir este nuevo archivo en el **head.html** de nuestro blog, ejemplo:
 {% highlight HTML %}
 <script type="text/javascript" src="{{ "/js/jekyll-search.js" | prepend: site.baseurl }}"></script>
@@ -73,5 +73,8 @@ Modificando este script podemos cambiar las ids del paso anterior. Aquí tambié
 Ya tenemos nuestro buscador funcionando! Ahora solo queda saber donde ponerlo y dejarlo todo bonito.
 
 Espero que os haya ayudado este tutorial y para cualquier duda poner un comentario.
-[Simple-Jekyll-Search]:  http://www.jekyll-plugins.com/plugins/simple-jekyll-search
-[jekyll-search]:http://vmunozre.github.io/dist/jekyll-search.js
+
+
+
+[SJS]:   http://www.jekyll-plugins.com/plugins/simple-jekyll-search/
+[jese]:   http://vmunozre.github.io/dist/jekyll-search.js/
