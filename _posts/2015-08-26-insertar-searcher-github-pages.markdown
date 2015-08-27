@@ -77,4 +77,4 @@ Espero que os haya ayudado este tutorial y para cualquier duda poner un comentar
 
 
 [SJS]:   http://www.jekyll-plugins.com/plugins/simple-jekyll-search/
-[jese]:   http://vmunozre.github.io/dist/jekyll-search.js/
+[jese]:   https://github.com/vmunozre/vmunozre.github.io/blob/master/dist/jekyll-search.js
