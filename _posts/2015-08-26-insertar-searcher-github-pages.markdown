@@ -3,6 +3,7 @@ layout: post
 title:  "Añadir un buscador en nuestro Blog de Github pages"
 date:   2015-08-26 17:22:20
 categories: tutorial search github
+permalink: searcher-github-pages
 ---
 
 Hoy aprenderemos algo muy práctico, como añadirle un buscador a nuestro blog de Github pages de una manera muy simple. Para ello utilizaremos un plugin de jekyll. Pero no solo tenemos ante nosotros un pequeño buscador, tenemos una herramienta muy potente y, como veremos más adelante, con un amplio grado de personalización.
