@@ -2,7 +2,7 @@
 layout: post
 title:  "¿Cómo poner Bootstrap en tu nuevo Blog de Github pages?"
 date:   2015-08-24 13:16:20
-categories: tutorial bootstrap github
+tags: tutorial bootstrap github
 permalink: bootstrap-y-githubs-pages
 ---
 ¿Qué mejor manera de inaugurar el blog que con un pequeño tutorial? En este aprenderemos lo fácil

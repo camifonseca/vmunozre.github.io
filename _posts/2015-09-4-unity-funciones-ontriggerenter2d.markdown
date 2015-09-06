@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Unity2D: Detectar colisiones entre cuerpos con OnTriggerEnter2D"
+title:  "Unity Scrips: Detectar colisiones entre cuerpos con OnTriggerEnter2D"
 date:   2015-09-04 15:00:20
-categories: tutorial unity script
+tags: tutorial unity script
 permalink: unity-colisiones-ontriggerenter2d
 ---
+
 [OnTriggerEnter2D][onturl] es una función propia de unity que nos envía un evento cada vez que dos **Colliders2D**, que contengan en sus scripts esta función, colisionen entre ellos. Estos eventos se pueden manejar a nuestro antojo, y en este tutorial veremos como hacerlo.
 
 ##Tags everywhere

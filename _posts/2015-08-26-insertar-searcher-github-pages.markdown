@@ -2,7 +2,7 @@
 layout: post
 title:  "Añadir un buscador en nuestro Blog de Github pages"
 date:   2015-08-26 17:22:20
-categories: tutorial search github
+tags: tutorial search github
 permalink: searcher-github-pages
 ---
 

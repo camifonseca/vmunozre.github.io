@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Acerca
-permalink: /sobremi/
+title: Sobre mi
+permalink: /acerca/
 ---
 
 Mi nombre es Víctor, estudiante de Ingeniería del Software en la Universidad Rey Juan Carlos y amante de la informática, programación y en general las nuevas tecnologías.
