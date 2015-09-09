@@ -22,20 +22,20 @@ No dudéis en contactar me para cualquier duda o sugerencia! :D
 <br/>
 
 <div class="ui list">
-  <a class="item">
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">4ºIngenieria del Software (2012 - Actualmente)</div>
       <div class="description">Cursado en la Universidad Rey Juan Carlos de Mostoles (Madrid). Con Asignaturas cursadas como: Programación Orientada a Objetos, Desarrollo de Aplicaciones Web, Calidad Software, etc.</div>
     </div>
-  </a>
-  <a class="item">
+  </span>
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">Bachillerato Tecnológico (2010 - 2012)</div>
       <div class="description">Cursado en el IES Parque Lisboa de Alcorcón.</div>
     </div>
-  </a>
+  </span>
 </div>
 
 <h4 class="ui horizontal divider header">
@@ -45,32 +45,32 @@ No dudéis en contactar me para cualquier duda o sugerencia! :D
 <br/>
 
 <div class="ui list">
-  <a class="item">
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">Curso de desarrollo de aplicaciones Moviles, Android e IOS.</div>
       <div class="description">(150 horas) - Por SeisCocos</div>
     </div>
-  </a>
-  <a class="item">
+  </span>
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">Curso de desarrollo 3D para Android e IOS.</div>
       <div class="description">(150 horas) - Por SeisCocos</div>
     </div>
-  </a>
-  <a class="item">
+  </span>
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">Curso de diseño 2D para Videojuegos</div>
       <div class="description">(20 horas) - Por la URJC</div>
     </div>
-  </a>
-  <a class="item">
+  </span>
+  <span class="item">
     <i class="right triangle icon"></i>
     <div class="content">
       <div class="header">Curso de Inmersion lingüistica</div>
       <div class="description">Ingles - Por la UIMP</div>
     </div>
-  </a>
+  </span>
 </div>
