@@ -15,4 +15,3 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
-  - _tag_gen
