@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unity Scrips: Detectar colisiones entre cuerpos con OnTriggerEnter2D"
+title:  "Unity Scripts: Detectar colisiones entre cuerpos con OnTriggerEnter2D"
 date:   2015-09-04 15:00:20
 tags: tutorial unity script
 permalink: unity-colisiones-ontriggerenter2d

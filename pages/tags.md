@@ -1,33 +1,27 @@
 ---
-layout: default
+layout: page
+title: Tags
+permalink: /tag/
 ---
 
-<style>
-  footer {
-    width: 100%;
-    height: 81px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-</style>
+
 <div ng-controller="Controller as vm">
 <h1 class="post_title">{{page.title}}</h1>
 
 
 <div class="ui middle aligned animated list">
   {% for post in site.posts %}
-  {% for {{vm.getTag()}} in post.tags %}
+  {% for tag in post.tags %}
 
-  {% if tag == page.tag %}
-  <div class="item">
+  <div class="item" ng-if="getTag() == {{tag}}">
+
     <i class="icon chevron right"></i>
     <div class="content">
       <div class="header"><a href='{{post.url}}'>{{post.title}}</a></div>
       <div class="description">{{ post.date | date: "%b %-d, %Y" }}</div>
     </div>
   </div>
-  {% endif %}
+
   {% endfor %}
   {% endfor %}
 </div>

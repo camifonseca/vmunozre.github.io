@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unity Scrips: Funciones por defecto y básicas."
+title:  "Unity Scripts: Funciones por defecto y básicas."
 date:   2015-09-14 12:00:20
 tags: tutorial unity script
 permalink: unity-funciones-por-defecto

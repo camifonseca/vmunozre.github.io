@@ -11,9 +11,11 @@ layout: default
         <h2>
           <span class="ui red ribbon label">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div ng-controller="Controller">
           {% for tag in post.tags %}
-            <a class="ui mini grey tag label" href="/tag/{{ tag }}">{{ tag }}</a>
+            <a class="ui mini grey tag label" ng-click="vm.setTag({{tag}})">{{ tag }}</a>
           {% endfor %}
+          </div>
         </h2>
         <div>
           {{ post.excerpt }}
