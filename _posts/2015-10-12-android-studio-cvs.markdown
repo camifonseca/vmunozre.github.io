@@ -12,6 +12,7 @@ El sistema de control de versiones de Android Studio tiene soporte para varias d
 
 Así que vamos a ello!
 
+
 ## Configurando Android Studio
 
 Una vez creada la cuenta en **Github** e instalado **Git** pasaremos a configurar Android Studio con estos datos. Para ello dentro de la selección de proyectos seguiremos la siguiente ruta: **Configure > Settings > Version Control > Github**, acabando en la siguiente pantalla:
@@ -44,6 +45,7 @@ Ahora iremos al apartado de Git y nos aseguraremos de que la ruta de instalació
 
 Perfecto! Ya tenemos nuestra cuenta vinculada a Android Studio! Ahora tenemos dos opciones, Importar un proyecto que ya este en Github para trabajar con él, o subir nuestro proyecto a un repositorio.
 
+
 ##Subir nuestro proyecto a un repositorio
 
 *Si ya tienes lo único que quieres importar un proyecto ya en Github puedes saltarte este paso!*
@@ -74,6 +76,7 @@ Por último en este caso decir que ahora en **VPS** nos aparecerán múltiples o
 
 Ahí muchas mas opciones, pero en este tutorial nos centramos en la configuración y preparación del control de versiones, no en todas las funciones que tenemos a nuestra disposición.
 
+
 ##Importar Proyecto ya existente de Github
 
 Ahora nos pondremos en el caso de que el proyecto ya esta creado y subido a un repositorio y queremos importarlo a nuestro Android Studio. Para ello desde la selección de proyectos pulsaremos la opción de **Check out proyect form Control Version > GitHub**, introducimos la contraseña que pusimos en el apartado de configuración.
@@ -93,11 +96,17 @@ Continuamos eligiendo el repositorio, la ruta donde lo pondremos y el nombre del
 
 Aceptamos y ya tenemos nuestro proyecto importado! :D
 
+
 ##Conclusiones
 
 Utilizar las herramientas de control de versiones que nos pone a nuestra disposición Android Studio es muy sencillo y nos facilita mucho la vida. Sobre todo si vamos a trabajar en proyectos con mucha gente o queremos tener diferentes versiones por si acaso se nos "pierde" algo.
 
 Espero que os haya servido este tutorial y para cualquier duda poner un comentario o poneros en contacto conmigo :D
 
+<div class="ui label">
+  <i class="github alternate icon"></i> [Proyecto del Ejemplo][gitproyect]
+</div>
+
 [giturl]:   https://git-scm.com/
 [githuburl]:   https://github.com/
+[gitproyect]:   https://github.com/vmunozre/TutorialVCSBlog
