@@ -104,7 +104,7 @@ Utilizar las herramientas de control de versiones que nos pone a nuestra disposi
 Espero que os haya servido este tutorial y para cualquier duda poner un comentario o poneros en contacto conmigo :D
 
 <div class="ui label">
-  <i class="github alternate icon"></i> [Proyecto del Ejemplo][gitproyect]
+  <a href="https://github.com/vmunozre/TutorialVCSBlog"><i class="github alternate icon"></i> Proyecto de Ejemplo</a>
 </div>
 
 [giturl]:   https://git-scm.com/
