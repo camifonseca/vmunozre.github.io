@@ -18,10 +18,12 @@ Una vez creada la cuenta en **Github** e instalado **Git** pasaremos a configura
 
 <div class="ui centered card">
   <div class="image">
-    <img src="/images/android-cvs-1.png">
+    <a href="/images/android-cvs-1.png"><img src="/images/android-cvs-1.png"></a>
   </div>
   <div class="content">
-    <a class="header">Settings > Control Version > Github</a>
+    <div class="description">
+      Settings > Control Version > Github
+    </div>
   </div>
 </div>
 
@@ -31,10 +33,12 @@ Ahora iremos al apartado de Git y nos aseguraremos de que la ruta de instalació
 
 <div class="ui centered card">
   <div class="image">
-    <img src="/images/android-cvs-3.png">
+    <a href="/images/android-cvs-3.png"><img src="/images/android-cvs-3.png"></a>
   </div>
   <div class="content">
-    <a class="header">Settings > Control Version > Git</a>
+    <div class="description">
+      Settings > Control Version > Git
+    </div>
   </div>
 </div>
 
@@ -48,10 +52,12 @@ El primer caso que trataremos es el de querer subir nuestro proyecto ya creado a
 
 <div class="ui centered card">
   <div class="image">
-    <img src="/images/android-cvs-4.png">
+    <a href="/images/android-cvs-4.png"><img src="/images/android-cvs-4.png"></a>
   </div>
   <div class="content">
-    <a class="header">VCS > Import into Version Control > Share Project on Github</a>
+    <div class="description">
+      VCS > Import into Version Control > Share Project on Github
+    </div>
   </div>
 </div>
 
@@ -76,10 +82,12 @@ Continuamos eligiendo el repositorio, la ruta donde lo pondremos y el nombre del
 
 <div class="ui centered card">
   <div class="image">
-    <img src="/images/android-cvs-10.png">
+    <a href="/images/android-cvs-10.png"><img src="/images/android-cvs-10.png"></a>
   </div>
   <div class="content">
-    <a class="header">VCS > Import into Version Control > Share Project on Github</a>
+    <div class="description">
+      Figura 4
+    </div>
   </div>
 </div>
 
